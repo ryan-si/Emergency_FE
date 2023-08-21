@@ -1,0 +1,11 @@
+// `pages/_app.js`
+import Home from ".";
+import "../styles/global.css";
+
+export default function App({ Component, pageProps }) {
+  return (
+    <div>
+      <Component {...pageProps} />
+    </div>
+  );
+}
