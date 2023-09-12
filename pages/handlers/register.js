@@ -212,7 +212,7 @@ export default function Register() {
               </div>
             </form>
 
-            <p className="mt-10 text-center text-sm text-gray-500">
+            {/* <p className="mt-10 text-center text-sm text-gray-500">
               Need to sign in?{" "}
               <a
                 href="signin"
@@ -220,7 +220,7 @@ export default function Register() {
               >
                 Click here to sign in
               </a>
-            </p>
+            </p> */}
             <div className="mt-10"></div>
           </div>
         </div>
